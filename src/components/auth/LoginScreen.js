@@ -53,6 +53,7 @@ export const LoginScreen = () => {
                 onChange={handleLoginInputChange}
               />
             </div>
+            <br />
             <div className="form-group">
               <input
                 type="password"
@@ -63,6 +64,8 @@ export const LoginScreen = () => {
                 onChange={handleLoginInputChange}
               />
             </div>
+            <br />
+
             <div className="form-group">
               <input type="submit" className="btnSubmit" value="Login" />
             </div>
@@ -82,6 +85,8 @@ export const LoginScreen = () => {
                 onChange={handleRegisterInputChange}
               />
             </div>
+            <br />
+
             <div className="form-group">
               <input
                 type="email"
@@ -92,6 +97,8 @@ export const LoginScreen = () => {
                 onChange={handleRegisterInputChange}
               />
             </div>
+            <br />
+
             <div className="form-group">
               <input
                 type="password"
@@ -102,6 +109,7 @@ export const LoginScreen = () => {
                 onChange={handleRegisterInputChange}
               />
             </div>
+            <br />
 
             <div className="form-group">
               <input
@@ -113,7 +121,7 @@ export const LoginScreen = () => {
                 onChange={handleRegisterInputChange}
               />
             </div>
-
+            <br />
             <div className="form-group">
               <input type="submit" className="btnSubmit" value="Crear cuenta" />
             </div>
